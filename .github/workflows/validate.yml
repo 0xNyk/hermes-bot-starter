@@ -27,5 +27,5 @@ jobs:
             test -f "$p/AGENTS.md"
             test -d "$p/skills"
             n=$(find "$p/skills" -name SKILL.md | wc -l)
-            test "$n" -ge 1
+            test "$n" -eq 1
           done
